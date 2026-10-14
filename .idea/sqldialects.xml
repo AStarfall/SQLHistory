@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/queries/Query_55.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_64.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_65.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_66.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_67.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_68.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_69.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_70.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_71.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_72.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_73.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_74.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_75.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_76.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_77.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_78.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_79.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_80.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_81.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_82.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_83.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_84.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_85.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/queries/Query_86.sql" dialect="MySQL" />
+  </component>
+</project>

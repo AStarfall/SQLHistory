@@ -19,3 +19,4 @@ WHERE v.dr = 0
         OR IFNULL(v.structure_code, '') <> IFNULL(m.structure_code, '')
         OR m.enable <> 1
     );
+
