@@ -1,0 +1,1 @@
+select * from iuap_apdoc_basedoc.bd_cust_doc where id ='2362229977251840009'

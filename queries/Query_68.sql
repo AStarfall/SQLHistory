@@ -1,0 +1,1 @@
+select pubts,audit_date,audit_time from tt_station_claim where code = 'GJCN06SO260900006'

@@ -1,0 +1,1 @@
+select * from c_oem_isscp_aftersvc_db.tm_claim_special_part_warranty where policy_no = '12345'

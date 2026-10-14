@@ -1,0 +1,38 @@
+-- ----------------------------
+-- Table structure for tm_account_oa
+-- ----------------------------
+CREATE TABLE IF NOT EXISTS `tm_account_oa` (
+                                               `country` varchar(36) COMMENT '国家',
+                                               `dealer_code` varchar(22) COMMENT '经销商代码',
+                                               `dealer_name` varchar(200) COMMENT '经销商名称',
+                                               `dealer_type` varchar(200) COMMENT '经销商类型',
+                                               `oa_credit_limit` decimal(32,8) COMMENT 'OA总额度',
+                                               `effective_date` datetime COMMENT '生效日期',
+                                               `expiry_date` datetime COMMENT '失效日期',
+                                               `currency` varchar(36) COMMENT '币种',
+                                               `available_limit` decimal(32,8) COMMENT '可用额度',
+                                               `used_limit` decimal(32,8) COMMENT '已用额度',
+                                               `credit_ins_limit` decimal(32,8) COMMENT '信保限额',
+                                               `da_attachments` longtext COMMENT 'DA资料',
+                                               `dp_attachments` longtext COMMENT 'DP资料',
+                                               `gua_attachments` longtext COMMENT '保函',
+                                               `business_status` varchar(200) COMMENT '业务状态',
+                                               `change_reason` varchar(200) COMMENT '变更原因',
+                                               `audit_to` varchar(200) COMMENT '审核至',
+                                               `audit_time` datetime COMMENT '审批日期',
+                                               `auditnote` varchar(200) COMMENT '审批批语',
+                                               `auditor` varchar(60) COMMENT '审批人',
+                                               `code` varchar(200) COMMENT '编码',
+                                               `create_time` datetime COMMENT '创建时间',
+                                               `creator` varchar(60) COMMENT '创建人',
+                                               `dr` smallint(5) DEFAULT '0' COMMENT '逻辑删除',
+                                               `id` varchar(22) NOT NULL COMMENT '主键',
+                                               `modifier` varchar(60) COMMENT '修改人',
+                                               `modify_time` datetime COMMENT '修改时间',
+                                               `procinst_id` varchar(36) COMMENT '流程实例ID',
+                                               `pubts` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '时间戳',
+                                               `verifystate` smallint(5) COMMENT '单据状态',
+                                               `ytenant_id` varchar(36) NOT NULL COMMENT '租户id',
+                                               INDEX `I_YTENANT_ID`(`ytenant_id`),
+                                               PRIMARY KEY (`id`)
+) ENGINE=InnoDB COMMENT='OA额度管理功能';
